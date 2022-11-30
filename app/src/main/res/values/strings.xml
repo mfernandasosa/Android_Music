@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Music</string>
+    //TextMainAct1
+    <string name="buttonInit">HOME</string>
+    //TextMainAct2
+    <string name="TextTitleHome">HOME</string>
+    <string name="btnProduct1">INFO</string>
+    <string name="btnProduct2">INFO</string>
+    <string name="btnProduct3">INFO</string>
+    <string name="Product1">Guitarras</string>
+    <string name="Product2">Pianos</string>
+    <string name="Product3">Violines</string>
+    //TextMainAct3
+    <string name="buttonReturn">Ver Instrumentos</string>
+</resources>
