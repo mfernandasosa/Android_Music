@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Ingreso">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/TextTitleHome"
+            android:textColor="@color/white"
+
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="335dp"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="345dp"
+            android:layout_height="138dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textProduct1"
+                android:layout_width="wrap_content"
+                android:layout_height="11dp"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:text="@string/Product1"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgProduct1"
+                    android:layout_width="148dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/guitar" />
+
+
+                <Button
+                    android:id="@+id/btnProduct1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="casual"
+                    android:layout_weight="1"
+                    android:text="@string/btnProduct1"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="335dp"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textProduct2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:text="@string/Product2"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="376dp"
+                android:layout_height="127dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imgProduct2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/piano" />
+
+                <Button
+                    android:id="@+id/btnProduct2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:text="@string/btnProduct2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="335dp"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textProduct3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:text="@string/Product3"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="376dp"
+                android:layout_height="134dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imgProduct3"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/violin" />
+
+
+                <Button
+                    android:id="@+id/btnProduct3"
+                    android:layout_width="36dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:text="@string/btnProduct3" />
+
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

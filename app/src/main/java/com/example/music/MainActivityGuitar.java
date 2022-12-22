@@ -20,7 +20,7 @@ import com.example.music.Service.ProductoService;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
-public class MainActivity3 extends AppCompatActivity {
+public class MainActivityGuitar extends AppCompatActivity {
     private DBHelper dbHelper;
     private DBFirebase dbFirebase;
     private ProductoService productoService;

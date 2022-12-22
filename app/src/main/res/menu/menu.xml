@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemFavorites"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_favorite_24"/>
+    <item
+        android:id="@+id/itemShare"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_share_24"/>
+    <item
+        android:id="@+id/itemMore"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_more_vert_24">
+        <menu>
+            <item
+                android:id="@+id/action_add"
+                android:title="Agregar"
+                android:orderInCategory="100"
+                app:showAsAction="ifRoom"
+                />
+            <item
+                android:id="@+id/action_map"
+                android:title="Mapa"
+                android:orderInCategory="100"
+                app:showAsAction="ifRoom"
+                />
+        </menu>
+    </item>
+</menu>
