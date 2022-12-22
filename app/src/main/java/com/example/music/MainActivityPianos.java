@@ -31,7 +31,7 @@ public class MainActivityPianos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_main_pianos);
         arrayProductos = new ArrayList<>();
         listViewProducts = (ListView) findViewById(R.id.listViewProducts);
         try {

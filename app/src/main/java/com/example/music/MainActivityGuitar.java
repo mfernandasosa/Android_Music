@@ -31,7 +31,7 @@ public class MainActivityGuitar extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_main_guitar);
         arrayProductos = new ArrayList<>();
         listViewProducts = (ListView) findViewById(R.id.listViewProducts);
         try {
